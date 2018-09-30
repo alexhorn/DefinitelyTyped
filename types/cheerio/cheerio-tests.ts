@@ -199,6 +199,7 @@ $el.eq(-1).text();
 // .get( [i] )
 $el.get(0).tagName;
 $el.get().length;
+const ignore: number[] = $el.map(() => 0).get();
 
 // .index()
 // .index( selector )
